@@ -1,0 +1,19 @@
+{
+    "main": ".open-next/worker.js",
+    "name": "image-gen",
+    "compatibility_date": "2024-11-11",
+    "compatibility_flags": [
+      "nodejs_compat"
+    ],
+    "assets": {
+      "directory": ".open-next/assets",
+      "binding": "ASSETS"
+    },
+    "upload_source_maps": true,
+    "ai": {
+      "binding": "AI"
+    },
+    "observability": {
+      "enabled": true
+    }
+  }
